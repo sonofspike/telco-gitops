@@ -12,5 +12,5 @@ These method are the *ONLY* methods that deploy and configure the `cluster-barem
 
 The following are examples of Telco management clusters using the `telco-gitops` repository:
 
-- https://github.com/openshift-telco/telco-gitops-mgmt
+- https://github.com/nsatsia/telco-gitops-mgmt
 - https://github.com/novacain1/carslab-public/tree/main/rhocp-clusters/volt.cars.lab
