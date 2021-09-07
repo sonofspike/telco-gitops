@@ -20,4 +20,4 @@ spec:
         matchLabels:
           telco-core: core-ocptest-lab
   pullSecretRef:
-    name: assisted-deployment-pull-secret
+    name: pull-secret

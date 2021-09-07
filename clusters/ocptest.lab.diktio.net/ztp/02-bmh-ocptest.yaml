@@ -56,7 +56,7 @@ metadata:
   namespace: assisted-installer
   labels:
     # InfraEnv to use
-    infraenvs.agent-install.openshift.io: "infraenv-ran-ocptest-lab"
+    infraenvs.agent-install.openshift.io: "infraenv-core-ocptest-lab"
   annotations:
     bmac.agent-install.openshift.io/role: master
     inspect.metal3.io: disabled
@@ -75,7 +75,7 @@ metadata:
   name: master2-ocptest-lab
   namespace: assisted-installer
   labels:
-    infraenvs.agent-install.openshift.io: "infraenv-ran-ocptest-lab"
+    infraenvs.agent-install.openshift.io: "infraenv-core-ocptest-lab"
   annotations:
     inspect.metal3.io: disabled
     bmac.agent-install.openshift.io/role: master
@@ -94,7 +94,7 @@ metadata:
   name: master3-ocptest-lab
   namespace: assisted-installer
   labels:
-    infraenvs.agent-install.openshift.io: "infraenv-ran-ocptest-lab"
+    infraenvs.agent-install.openshift.io: "infraenv-core-ocptest-lab"
   annotations:
     inspect.metal3.io: disabled
     bmac.agent-install.openshift.io/role: master
@@ -113,7 +113,7 @@ metadata:
   name: worker1-ocptest-lab
   namespace: assisted-installer
   labels:
-    infraenvs.agent-install.openshift.io: "infraenv-ran-ocptest-lab"
+    infraenvs.agent-install.openshift.io: "infraenv-core-ocptest-lab"
   annotations:
     inspect.metal3.io: disabled
     bmac.agent-install.openshift.io/role: worker
@@ -133,7 +133,7 @@ metadata:
   name: worker2-ocptest-lab
   namespace: assisted-installer
   labels:
-    infraenvs.agent-install.openshift.io: "infraenv-ran-ocptest-lab"
+    infraenvs.agent-install.openshift.io: "infraenv-core-ocptest-lab"
   annotations:
     inspect.metal3.io: disabled
     bmac.agent-install.openshift.io/role: worker
